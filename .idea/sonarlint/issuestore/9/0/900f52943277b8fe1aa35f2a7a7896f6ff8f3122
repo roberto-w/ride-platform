@@ -1,0 +1,11 @@
+
+Rsquid:S10660"/Merge this if statement with the enclosing one.(¾²Õ‡ÿÿÿÿÿ8§İ–’ì-
+Gsquid:S1125V")Remove the literal "false" boolean value.(ö×ı8Ìˆà“ì-
+ksquid:S4034c"HReplace this "filter().findFirst().isPresent()" chain with "anyMatch()".(«½å§øÿÿÿÿ8Ìˆà“ì-
+esquid:S2095Q"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(—‰˜8Ìˆà“ì-
+\squid:S1068">Remove this unused "RIDE_EXPIRATION_IN_SECONDS" private field.(ïüŸ¯8§İ–’ì-
+jsquid:S2095N"GUse try-with-resources or close this "Statement" in a "finally" clause.(Ñûà‡øÿÿÿÿ8Ìˆà“ì-
+Fsquid:S1148Z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ìˆà“ì-
+Rsquid:S1066'"/Merge this if statement with the enclosing one.(­âÙôùÿÿÿÿ8§İ–’ì-
+Isquid:S1168="+Return an empty collection instead of null.(¥¹ï8Ìˆà“ì-
+Osquid:S1068"1Remove this unused "vehiclesInUse" private field.(Ò¯Ö÷8Ğ¦ó’ì-

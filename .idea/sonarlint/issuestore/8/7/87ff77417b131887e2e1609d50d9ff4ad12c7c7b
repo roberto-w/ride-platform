@@ -1,0 +1,8 @@
+
+bsquid:S21472"DCombine this catch with the one at line 48, which has the same body.(ο­£Δ8ΓªΕκ-
+Fsquid:S11483"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8ΓªΕκ-
+ksquid:S2095+"HUse try-with-resources or close this "FileReader" in a "finally" clause.(³ι―Ίψÿÿÿÿ8Α‹ΠΕκ-
+qsquid:S2259"NA "NullPointerException" could be thrown; "connectionParams" is nullable here.(¥ςΦαϊÿÿÿÿ8Ιµ½Εκ-
+Fsquid:S1148""#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8‚ΏΕκ-
+_squid:UselessImportCheck"4Remove this unused import 'java.io.FileInputStream'.(³ΙΣ8Α‹ΠΕκ-
+Fsquid:S11481"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8ΩΒ΄Εκ-
