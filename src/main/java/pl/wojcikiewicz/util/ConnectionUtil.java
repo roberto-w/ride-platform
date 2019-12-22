@@ -1,6 +1,7 @@
 package pl.wojcikiewicz.util;
 
-import java.io.FileInputStream;
+import org.apache.log4j.Logger;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -10,6 +11,8 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public final class ConnectionUtil {
+
+    private static final Logger logger = Logger.getLogger(ConnectionUtil.class);
 
     private static final String CONNECTION_FILE_NAME = "src/main/resources/connection.properties";
 
@@ -31,7 +34,7 @@ public final class ConnectionUtil {
         try {
             connection = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
         } catch (SQLException e) {
-            e.printStackTrace();
+            logger.error(""); // add sensible error msg
         }
         return connection;
 
@@ -46,9 +49,9 @@ public final class ConnectionUtil {
             properties.load(fileReader);
 
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            logger.error("");
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("");
         }
         return properties;
     }
